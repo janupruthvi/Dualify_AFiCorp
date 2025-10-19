@@ -1,0 +1,23 @@
+{
+  "company": {
+    "name": "ABC Auto GmbH",
+    "isVerified": true
+  },
+  "school": {
+    "name": "Vienna Vocational School",
+    "isVerified": false
+  },
+  "calendar": [
+    { "dayName": "Mon", "type": "school", "emoji": "📚" },
+    { "dayName": "Tue", "type": "work", "emoji": "💼" },
+    { "dayName": "Wed", "type": "work", "emoji": "💼" },
+    { "dayName": "Thu", "type": "school", "emoji": "📚" },
+    { "dayName": "Fri", "type": "work", "emoji": "💼" },
+    { "dayName": "Sat", "type": "off", "emoji": "❌" },
+    { "dayName": "Sun", "type": "off", "emoji": "❌" }
+  ],
+  "question": {
+    "text": "How was your training today?",
+    "answer": null
+  }
+}
