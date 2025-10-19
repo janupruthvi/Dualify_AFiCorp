@@ -67,7 +67,7 @@ class CalendarSection extends StatelessWidget {
                   alignment: Alignment.center,
                   child: currentDay.isBefore(startDate)
                       ? const SizedBox.shrink()
-                      : AppUtils.buildDayIcon(days[index].type.toString().split('.').last),
+                      : AppUtils.buildDayIcon(days[index].type),
                 ),
               ],
             );

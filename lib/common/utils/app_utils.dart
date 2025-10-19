@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:dualify_apprenticeship_aficorp/models/calendar_day.dart';
 import 'package:dualify_apprenticeship_aficorp/models/user.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -16,16 +17,14 @@ class AppUtils {
     return null;
   }
 
-  static Icon buildDayIcon(String type) {
+  static Icon buildDayIcon(CalendarDayType type) {
     switch (type) {
-      case 'school':
+      case CalendarDayType.school:
         return const Icon(Icons.school_rounded, size: 28, color: Colors.blueAccent);
-      case 'work':
+      case CalendarDayType.work:
         return const Icon(Icons.business_center_rounded, size: 28, color: Colors.purple);
-      case 'off':
-        return Icon(Icons.close_rounded, size: 28, color: Colors.grey);
-      default:
-        return const Icon(Icons.help_outline, size: 28, color: Colors.grey);
+      case CalendarDayType.off:
+        return const Icon(Icons.close_rounded, size: 28, color: Colors.grey);
     }
   }
   

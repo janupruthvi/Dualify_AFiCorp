@@ -5,12 +5,10 @@ enum CalendarDayType { school, work, off }
 class CalendarDay {
   final String dayName;
   final CalendarDayType type;
-  final String emoji;
 
   CalendarDay({
     required this.dayName,
     required this.type,
-    required this.emoji,
   });
 
   factory CalendarDay.fromJson(Map<String, dynamic> json) {
@@ -19,7 +17,6 @@ class CalendarDay {
       type: CalendarDayType.values.firstWhere(
         (e) => e.toString() == 'CalendarDayType.${json['type']}',
       ),
-      emoji: json['emoji'],
     );
   }
 
@@ -27,7 +24,6 @@ class CalendarDay {
     return {
       'dayName': dayName,
       'type': type.toString().split('.').last,
-      'emoji': emoji,
     };
   }
 }

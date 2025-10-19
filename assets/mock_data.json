@@ -8,16 +8,15 @@
     "isVerified": false
   },
   "calendar": [
-    { "dayName": "Mon", "type": "school", "emoji": "📚" },
-    { "dayName": "Tue", "type": "work", "emoji": "💼" },
-    { "dayName": "Wed", "type": "work", "emoji": "💼" },
-    { "dayName": "Thu", "type": "school", "emoji": "📚" },
-    { "dayName": "Fri", "type": "work", "emoji": "💼" },
-    { "dayName": "Sat", "type": "off", "emoji": "❌" },
-    { "dayName": "Sun", "type": "off", "emoji": "❌" }
+    { "dayName": "Mon", "type": "school"},
+    { "dayName": "Tue", "type": "work"},
+    { "dayName": "Wed", "type": "work"},
+    { "dayName": "Thu", "type": "school"},
+    { "dayName": "Fri", "type": "work"},
+    { "dayName": "Sat", "type": "off"},
+    { "dayName": "Sun", "type": "off"}
   ],
   "question": {
-    "text": "How was your training today?",
-    "answer": null
+    "text": "How was your training today?"
   }
 }
