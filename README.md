@@ -57,9 +57,7 @@ Or you can open main.dart file and press the run button in VS Code.
 
 ## App Output
 
-![Dashboard Screen](/screenshots/dashboard_Screenshot_iPhone_15_Pro.png)
-![Onboarding Screen](/screenshots/onboard_Screenshot_iPhone_15_Pro.png)
-![Login Screen](/screenshots/login_Screenshot_iPhone_15_Pro.png)
+<img src="/screenshots/dashboard_Screenshot_iPhone_15_Pro.png" width="300" />&emsp;&emsp;<img src="/screenshots/onboard_Screenshot_iPhone_15_Pro.png" width="300" />&emsp;&emsp;<img src="/screenshots/login_Screenshot_iPhone_15_Pro.png" width="300" />
 
 #### Thank you for the opportunity to complete this assignment as part of the interview process. I appreciate your time and consideration. Your feedback would be greatly appreciated ☺️
 
