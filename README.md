@@ -55,6 +55,12 @@ Or you can open main.dart file and press the run button in VS Code.
 - User can log out and log in using their name & given password to view the resumed data.
 - If you want to onboard a new user, please delete the app and reinstall or rerun (from VSCode) to delete the stored data from local storage.
 
+## App Output
+
+![Example Image](dashboard_Screenshot_iPhone_15_Pro.png)
+![Example Image](onboard_Screenshot_iPhone_15_Pro.png)
+![Example Image](onboard_Screenshot_iPhone_15_Pro.png)
+
 #### Thank you for the opportunity to complete this assignment as part of the interview process. I appreciate your time and consideration. Your feedback would be greatly appreciated ☺️
 
 
